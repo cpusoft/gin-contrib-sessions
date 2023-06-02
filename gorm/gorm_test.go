@@ -5,8 +5,8 @@ package gorm
 import (
 	"testing"
 
-	"github.com/gin-contrib/sessions"
-	"github.com/gin-contrib/sessions/tester"
+	"github.com/cpusoft/gin-contrib-sessions"
+	"github.com/cpusoft/gin-contrib-sessions/tester"
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
 )

@@ -2,8 +2,8 @@ package main
 
 import (
 	"database/sql"
-	"github.com/gin-contrib/sessions"
-	"github.com/gin-contrib/sessions/postgres"
+	"github.com/cpusoft/gin-contrib-sessions"
+	"github.com/cpusoft/gin-contrib-sessions/postgres"
 	"github.com/gin-gonic/gin"
 )
 
