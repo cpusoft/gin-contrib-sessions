@@ -1,14 +1,12 @@
 package mongodriver
 
 import (
-	"github.com/bos-hieu/mongostore"
-	"github.com/cpusoft/gin-contrib-sessions"
+	sessions "github.com/cpusoft/gin-contrib-sessions"
+	"github.com/laziness-coders/mongostore"
 	"go.mongodb.org/mongo-driver/mongo"
 )
 
-var (
-	_ sessions.Store = (*store)(nil)
-)
+var _ sessions.Store = (*store)(nil)
 
 func NewStore(c *mongo.Collection, maxAge int, ensureTTL bool, keyPairs ...[]byte) sessions.Store {
 	return &store{mongostore.NewMongoStore(c, maxAge, ensureTTL, keyPairs...)}
