@@ -1,13 +1,6 @@
 package redis
 
-import (
-	"errors"
-
-	"github.com/boj/redistore"
-	"github.com/cpusoft/gin-contrib-sessions"
-	"github.com/gomodule/redigo/redis"
-)
-
+/* temp close
 type Store interface {
 	sessions.Store
 }
@@ -87,3 +80,4 @@ func SetKeyPrefix(s Store, prefix string) error {
 func (c *store) Options(options sessions.Options) {
 	c.RediStore.Options = options.ToGorillaOptions()
 }
+*/

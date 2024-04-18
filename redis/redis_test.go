@@ -1,11 +1,6 @@
 package redis
 
-import (
-	"testing"
-
-	"github.com/cpusoft/gin-contrib-sessions"
-	"github.com/cpusoft/gin-contrib-sessions/tester"
-)
+/* temp close
 
 const redisTestServer = "localhost:6379"
 
@@ -50,3 +45,4 @@ func TestGetRedisStore(t *testing.T) {
 		}
 	})
 }
+*/

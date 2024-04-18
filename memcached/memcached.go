@@ -1,11 +1,6 @@
 package memcached
 
-import (
-	"github.com/bradfitz/gomemcache/memcache"
-	gsm "github.com/bradleypeabody/gorilla-sessions-memcache"
-	"github.com/cpusoft/gin-contrib-sessions"
-)
-
+/* temp close
 type Store interface {
 	sessions.Store
 }
@@ -34,3 +29,4 @@ type store struct {
 func (c *store) Options(options sessions.Options) {
 	c.MemcacheStore.Options = options.ToGorillaOptions()
 }
+*/

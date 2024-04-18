@@ -1,14 +1,6 @@
 package memcached
 
-import (
-	"testing"
-
-	"github.com/bradfitz/gomemcache/memcache"
-	"github.com/cpusoft/gin-contrib-sessions"
-	"github.com/cpusoft/gin-contrib-sessions/tester"
-	"github.com/memcachier/mc"
-)
-
+/* temp close
 const memcachedTestServer = "localhost:11211"
 
 var newStore = func(_ *testing.T) sessions.Store {
@@ -70,3 +62,4 @@ func TestBinaryMemcached_SessionOptions(t *testing.T) {
 func TestBinaryMemcached_SessionMany(t *testing.T) {
 	tester.Many(t, newBinaryStore)
 }
+*/
